@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 0 2rem !important;
+}
+
+.list > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.badge{
+    background-color: var(--primary-color);
+}
+
+.badge-icon{
+    font-size: 1rem;
+    background-color: var(--primary-color) !important;
+}
+
+.bi-heart{
+    margin-left: 1.5rem;
+}
+
+.nav-search{
+    padding: 0.5rem 1.5rem;
+    margin: 0;
+    border: none;
+    background: transparent;
+}
+
+.mid-nav{
+    border: 1px solid var(--text-color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    margin: 1rem;
+}
+
+.bi-search{
+    font-size: 0.8rem;
+}
