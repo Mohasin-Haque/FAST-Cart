@@ -1,0 +1,46 @@
+/* External Imports */
+
+@import url("../styles/nav.css");
+
+:root {
+  --primary-color: #da1445 !important;
+  --secondary-color: #ee3462;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  background-image: url("https://cdn.shortpixel.ai/spai/q_+ret_img+to_webp/https://www.banarasisaree.com/wp-content/uploads/2021/11/slider-home-wedding-2nw.jpg");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  top: 0;
+  z-index: -1;
+  filter: brightness(95%);
+  background-size: cover;
+  margin-top: 3.5rem !important;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.badge {
+  background-color: var(--primary-color);
+}
+
+.badge-icon {
+  background-color: var(--primary-color) !important;
+}
+
+.btn-primary {
+  border: 2px solid;
+}

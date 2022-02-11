@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Mohasin-Haque">
     <meta name="description" content="Shop from home with us and get the things delivered to your doorstep.">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
     <!-- For component library -->
     <link rel="stylesheet" href="https://fast-ui.netlify.app/styles/main.css">
     <title>fastcart</title>
 </head>
+
 <body>
     <header>
-        <nav class="navbar">
-            <div class="left-nav">
-                <a href="#" class="nav nav-logo">fastcart</a>
-                <span class="small-text">V 1.0</span>
+        <nav class="navbar-ecom">
+            <div class="brand-title-ecom">fastcart</div>
+            <a href="#" class="toggle-button-ecom">
+                <span class="bar-ecom"></span>
+                <span class="bar-ecom"></span>
+                <span class="bar-ecom"></span>
+            </a>
+            <div class="search-box-ecom">
+                <input type="search" placeholder="search">
+                <span class="fa fa-search"></span>
             </div>
-            <div class="mid-nav">
-                <span class="bi bi-search"></span>
-                <input type="text" placeholder="search" class="nav-search">
-            </div>
-            <div class="right-nav">
-                <ul class="list">
-                    <li><a href="#" class="nav right-nav-active nav-pills"><button class="btn btn-primary">Login</button></a></li>
-                    <li>
-                        <a href="#" class="nav nav-pills">
-                            <div class="icon"><i class="bi bi-heart"></i>
-                                <span class="badge badge-icon">4</span>
-                            </div>
-                        </li>
-                        <li><a class="nav nav-pills"><div class="icon"><i class="bi bi-cart"></i>
-                            <span class="badge badge-icon">4</span>
-                        </div><a href="#" class="nav nav-pills">Cart</a></a></li>
-                    </ul>
-            </div>
+            <div class="navbar-links-ecom">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#"><i class="bi bi-heart"></i>Wishlist</a></li>
+                    <li><a href="#"><i class="bi bi-cart"></i>Cart</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -47,28 +43,16 @@
                 </h3>
             </div>
             <p class="about">
-                Welcome to fastcart. It's a e-commerce app which have a wide range of clothings and apparel. Choose the cotagory to explore more.
+                Welcome to fastcart. It's a e-commerce app which have a wide range of clothings and apparel. Choose the
+                cotagory to explore more.
             </p>
             <div class="btn-container">
                 <a class="btn btn-primary" href="#">Women's Wear</a>
                 <a class="btn btn-secondary" href="#">Men's Wear</a>
             </div>
         </section>
-        <!-- <section class="section">
-            <footer class="footer">
-                <p>
-                    <span class="colored-text">
-                        < /> </span> by
-                    <span class="colored-text">Mohasin</span> with
-                    <span class="colored-text">&#9829;</span>
-                </p>
-                <div class="socials">
-                    <a href="https://twitter.com/mohasin_haque" target="_blank"><i class="bi bi-twitter"></i></a>
-                    <a href="https://github.com/Mohasin-Haque" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://www.linkedin.com/in/mohasin-haque" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
-            </footer>
-        </section> -->
     </main>
+    <script src="./scripts/nav.js"></script>
 </body>
+
 </html>
