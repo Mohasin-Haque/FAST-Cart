@@ -1,2 +1,4 @@
 # FAST-Cart
-This is an e-commerce app.
+fastcart is a e commerce website which have a wide range and variety of items in clothings and apparals. Shop from home with us and get the things delivered to your doorstep in exclusive prices.
+
+
