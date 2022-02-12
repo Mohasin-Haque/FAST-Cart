@@ -2,6 +2,7 @@
 @import url("https://fast-ui.netlify.app/styles/main.css");
 @import url("../styles/nav.css");
 @import url("../styles/login.css");
+@import url("../styles/filter.css");
 
 :root {
   --primary-color: #da1445;
