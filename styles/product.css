@@ -1,0 +1,18 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+}
+
+.advertisement {
+  margin-top: 1rem;
+}
+
+.products-container {
+  margin: 1rem 0;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.heart-icon-main {
+  color: var(--primary-color);
+}
