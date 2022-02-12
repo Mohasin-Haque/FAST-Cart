@@ -1,10 +1,12 @@
 /* External Imports */
-
+@import url("https://fast-ui.netlify.app/styles/main.css");
 @import url("../styles/nav.css");
+@import url("../styles/login.css");
 
 :root {
-  --primary-color: #da1445 !important;
+  --primary-color: #da1445;
   --secondary-color: #ee3462;
+  --icon-color: #333;
 }
 
 * {
@@ -12,8 +14,6 @@
   margin: 0;
   padding: 0;
 }
-
-
 
 .image-section {
   width: 100%;
@@ -44,7 +44,11 @@
   border: 2px solid;
 }
 
-.heading-card{
+.btn-secondary:hover {
+  background-color: var(--secondary-color);
+}
+
+.heading-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,13 +57,13 @@
   margin-top: 2rem;
 }
 
-.featured-product{
+.featured-product {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-.card-container .image-div .card-badge-ecom{
+.card-container .image-div .card-badge-ecom {
   background-color: var(--primary-color);
 }
