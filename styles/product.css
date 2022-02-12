@@ -8,11 +8,24 @@
 }
 
 .products-container {
-  margin: 1rem 0;
+  margin: 2rem 2.5rem;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .heart-icon-main {
   color: var(--primary-color);
+}
+
+.card-container{
+  width: 18rem;
+}
+
+.card-heading{
+  font-weight: 600;
+}
+
+.card-author{
+  font-size: 1.2rem;
+  font-weight: 500;
 }
