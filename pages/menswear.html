@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>products | fastcart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mohasin Haque">
+    <meta name="description"
+        content="Choose your favorite products form this page and add it to wishlist so that you never miss it.">
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+</head>
+
+<body>
+    <nav class="navbar-ecom">
+        <a href="../index.html" class="brand-title-ecom">fastcart</a>
+        <a href="#" class="toggle-button-ecom">
+            <span class="bar-ecom"></span>
+            <span class="bar-ecom"></span>
+            <span class="bar-ecom"></span>
+        </a>
+        <div class="search-box-ecom">
+            <input type="search" placeholder="search">
+            <span class="fa fa-search"></span>
+        </div>
+        <div class="navbar-links-ecom">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">cart</a></li>
+                <li><a href="#">wishlist</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="sidebar">
+        <div class="items">
+            <div class="filter flex-center">
+                <p class="filter-text">Filters</p>
+                <a href="#" class="clear-text">Clear</a>
+            </div>
+            <div class="slider-div">
+                <p class="filter-text flex-center">Price</p>
+                <div class="price-range flex-center">
+                    <span>1000</span>
+                    <span>2000</span>
+                    <span>3000</span>
+                </div>
+                <div class="slider">
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                </div>
+            </div>
+            <div class="cotegory">
+                <div class="filter-text">Cotegory</div>
+                <div class="inputs flex-center">
+                    <label for="radio-unchecked">
+                        <input class="radio-unchecked" name="radio" type="checkbox" checked>
+                        Wedding Special
+                    </label>
+                    <label for="radio-unchecked">
+                        <input class="radio-unchecked" name="radio" type="checkbox">
+                        Festival Special
+                    </label>
+                </div>
+            </div>
+            <div class="rating">
+                <div class="filter-text">Rating</div>
+                <div class="inputs flex-center">
+                    <label for="radio-unchecked">
+                        <input class="radio-unchecked" name="radio" type="radio" checked>
+                        4 Stars and above
+                    </label>
+                    <label for="radio-unchecked">
+                        <input class="radio-unchecked" name="radio" type="radio">
+                        3 Stars and above
+                    </label>
+                    <label for="radio-unchecked">
+                        <input class="radio-unchecked" name="radio" type="radio">
+                        2 Stars and above
+                    </label>
+                    <label for="radio-unchecked">
+                        <input class="radio-unchecked" name="radio" type="radio">
+                        1 Stars and above
+                    </label>
+                </div>
+            </div>
+            <div class="sort-div">
+                <div class="filter-text">Sort by</div>
+                <div class="inputs flex-center">
+                    <label for="radio-unchecked">
+                        <input class="radio-unchecked" name="radio-checked" type="radio" checked>
+                        Price - Low to High
+                    </label>
+                    <label for="radio-unchecked">
+                        <input class="radio-unchecked" name="radio" type="radio">
+                        Price - High to Low
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Cards  -->
+
+    <div class="main-container-components">
+        <div class="products-div flex-center">
+            <p class="filter-text">Showing all Products </p> <span> ( showing 6 products ) </span>
+        </div>
+        <div class="flex-center products-container">
+            <section>
+                <div class="card-container">
+                    <div class="image-div">
+                        <div class="overlay-image">
+                            <img class="card-image"
+                                src="https://static3.azafashions.com/tr:w-317/uploads/product/jmss21nj-3-0058297001634828396.jpg"
+                                alt="error" />
+                            <div class="dismiss"><i class="fas fa-heart heart-icon-main"></i></div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-heading">Hand Painted Bundi & Kurta Set
+                        </h2>
+                        <p class="card-author">Rs. 6,990 only</p
+                    </div>
+                    <div class="card-actions">
+                        <button class="card-btn">Buy</button>
+                        <button class="card-btn">Add To Cart</button>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="card-container">
+                    <div class="image-div">
+                        <div class="overlay-image">
+                            <img class="card-image"
+                                src="https://static3.azafashions.com/tr:w-317/uploads/product/sh-in-108-0575860001637060959.jpg"
+                                alt="error" />
+                            <div class="dismiss"><i class="fas fa-heart heart-icon"></i></div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-heading">Embroided Sherwani Set
+                        </h2>
+                        <p class="card-author">Rs. 9,500</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="card-btn">Buy</button>
+                        <button class="card-btn">Add To Cart</button>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="card-container">
+                    <div class="image-div">
+                        <div class="overlay-image">
+                            <img class="card-image"
+                                src="https://static3.azafashions.com/tr:w-317/uploads/product/11_2804_sba-0091073001619611483.jpg"
+                                alt="error" />
+                            <div class="dismiss"><i class="fas fa-heart heart-icon"></i></div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-heading">Linen Satin Embroidery Kurta Set
+                        </h2>
+                        <p class="card-author">Rs. 7,590</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="card-btn">Buy</button>
+                        <button class="card-btn">Add To Cart</button>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="card-container">
+                    <div class="image-div">
+                        <div class="overlay-image">
+                            <img class="card-image"
+                                src="https://static3.azafashions.com/tr:w-317/uploads/product/vls158_0202-0003371001643813451.jpg"
+                                alt="error" />
+                            <div class="dismiss"><i class="fas fa-heart heart-icon"></i></div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-heading">Golden Patterned Kurta Set
+                        </h2>
+                        <p class="card-author">Rs. 8,490</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="card-btn">Buy</button>
+                        <button class="card-btn">Add To Cart</button>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="card-container">
+                    <div class="image-div">
+                        <div class="overlay-image">
+                            <img class="card-image"
+                                src="https://static3.azafashions.com/tr:w-317/uploads/product/480_2311-0480252001637670093.jpg"
+                                alt="error" />
+                            <div class="dismiss"><i class="fas fa-heart heart-icon"></i></div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-heading">Embroided jacket & Kurta Set</h2>
+                        <p class="card-author">Rs. 11,630</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="card-btn">Buy</button>
+                        <button class="card-btn">Add To Cart</button>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="card-container">
+                    <div class="image-div">
+                        <div class="overlay-image">
+                            <img class="card-image"
+                                src="https://static3.azafashions.com/tr:w-317/uploads/product/471_2311-0756045001637670091.jpg"
+                                alt="error" />
+                            <div class="dismiss"><i class="fas fa-heart heart-icon"></i></div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-heading">Embroided Bundi & Kurta Set</h2>
+                        <p class="card-author">Rs. 3,590</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="card-btn">Buy</button>
+                        <button class="card-btn">Add To Cart</button>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="../scripts/nav.js" async defer></script>
+</body>
+
+</html>
