@@ -4,6 +4,7 @@
 @import url("../styles/login.css");
 @import url("../styles/nav.css");
 @import url("../styles/product.css");
+@import url("../styles/signup.css");
 
 :root {
   --primary-color: #da1445;
