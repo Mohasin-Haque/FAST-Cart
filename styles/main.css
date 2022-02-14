@@ -1,4 +1,4 @@
-/******* External Imports *******/
+/* External Imports */
 @import url("https://fast-ui.netlify.app/styles/main.css");
 @import url("../styles/filter.css");
 @import url("../styles/login.css");
@@ -57,10 +57,8 @@
   align-items: center;
   max-width: auto;
   padding: 1rem;
-  margin: 2rem;
+  margin-top: 2rem;
 }
-
-/******* Featured section styling *******/
 
 .featured-product {
   display: flex;
@@ -71,23 +69,4 @@
 
 .card-container .image-div .card-badge-ecom {
   background-color: var(--primary-color);
-}
-
-/****** Cotegory section styling *******/
-
-.card-cotegory {
-  width: 20rem;
-  height: 14.2rem;
-}
-
-.image-cotegory {
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-  height: 14.1rem;
-  width: 15rem;
-}
-
-.card-badge-cotegory {
-  top: 5.5rem;
-  opacity: 0.7;
 }
