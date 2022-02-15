@@ -1,5 +1,6 @@
 /******* External Imports *******/
 @import url("https://fast-ui.netlify.app/styles/main.css");
+@import url("../styles/cart.css");
 @import url("../styles/filter.css");
 @import url("../styles/login.css");
 @import url("../styles/nav.css");
