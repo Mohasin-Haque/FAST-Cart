@@ -46,7 +46,7 @@ You can login here. Don't worry if you not have an account. Click on ` > ` butto
 
 You can signup here.
 
-![Signup page](https://user-images.githubusercontent.com/72180173/154845876-7190c673-d51b-4f01-a6c6-1920b790730d.png)
+![Signup page](https://user-images.githubusercontent.com/72180173/154942377-502bb7d3-dd22-4442-bd77-3388c28b9ad6.png)
 
 
 
