@@ -13,6 +13,11 @@
   gap: 3rem;
 }
 
+.dismiss{
+  right: 0%;
+  left: 2%;
+}
+
 .heart-icon-main {
   color: var(--primary-color);
 }
